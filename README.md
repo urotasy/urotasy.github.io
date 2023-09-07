@@ -1,3 +1,3 @@
 # urotasy.github.io
 
-This repository includes the file for https://urotasy.github.io/.
+This repository deploys https://urotasy.github.io/.

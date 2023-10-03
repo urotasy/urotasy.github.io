@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ur Memos</title>
-    <link>http://example.org/</link>
-    <description>Recent content on Ur Memos</description>
+    <title>valgrind on Ur Memos</title>
+    <link>http://example.org/categories/valgrind/</link>
+    <description>Recent content in valgrind on Ur Memos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 27 Sep 2023 22:08:26 +0900</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Oct 2023 23:02:24 +0900</lastBuildDate><atom:link href="http://example.org/categories/valgrind/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>supressions file を用いて valgrind の一部のエラー検出を抑制する</title>
       <link>http://example.org/article/valgrind_suppressions/</link>
@@ -20,15 +20,6 @@
 suppressions file の詳細 具体例としては /usr/lib/valgrind/default.supp を見るとよい。 suppressions file は個別の抑制を { と } で囲んだ中に指定し、{ と } で囲まれたものを列挙するという形式になっている。この { と } は行頭に書かねばならない。以降、{ と } で囲んだ中の記述方法について説明する。
 1 行目 suppressions file の名前を書く。valgrind のログの summary に出力されるだけ。
 2 行目 カンマ区切りで suppression 対象のツール名と、 その後ろにコロンと suppression そのものの名前を書く。例えば tool_name1,tool_name2:suppression_name のような形式になる。対象のツールに関係のない suppression は無視されるだけなので、とりあえず全てのツール名を書いておいてよい。</description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>http://example.org/article/test/</link>
-      <pubDate>Wed, 27 Sep 2023 22:17:48 +0900</pubDate>
-      
-      <guid>http://example.org/article/test/</guid>
-      <description>Test This is test article.</description>
     </item>
     
   </channel>

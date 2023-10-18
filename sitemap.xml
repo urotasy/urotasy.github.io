@@ -3,21 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://example.org/article/</loc>
-    <lastmod>2023-10-02T23:02:24+09:00</lastmod>
+    <lastmod>2023-10-18T21:38:12+09:00</lastmod>
   </url><url>
     <loc>http://example.org/categories/</loc>
+    <lastmod>2023-10-18T21:38:12+09:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/diary/</loc>
+    <lastmod>2023-10-18T21:38:12+09:00</lastmod>
+  </url><url>
+    <loc>http://example.org/categories/diary/</loc>
+    <lastmod>2023-10-18T21:38:12+09:00</lastmod>
+  </url><url>
+    <loc>http://example.org/article/diary_20231018/</loc>
+    <lastmod>2023-10-18T21:38:12+09:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/job/</loc>
+    <lastmod>2023-10-18T21:38:12+09:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/software-development/</loc>
+    <lastmod>2023-10-18T21:38:12+09:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2023-10-18T21:38:12+09:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/debug/</loc>
     <lastmod>2023-10-02T23:02:24+09:00</lastmod>
   </url><url>
     <loc>http://example.org/article/valgrind_suppressions/</loc>
     <lastmod>2023-10-02T23:02:24+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>http://example.org/categories/tips/</loc>
     <lastmod>2023-10-02T23:02:24+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/tips/</loc>
-    <lastmod>2023-10-02T23:02:24+09:00</lastmod>
-  </url><url>
-    <loc>http://example.org/categories/valgrind/</loc>
+    <loc>http://example.org/tags/valgrind/</loc>
     <lastmod>2023-10-02T23:02:24+09:00</lastmod>
   </url><url>
     <loc>http://example.org/tags/test/</loc>

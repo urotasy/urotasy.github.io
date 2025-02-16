@@ -10,7 +10,7 @@
 <li><a href="https://github.com/urotasy/UrHugoSite">https://github.com/urotasy/UrHugoSite</a> を clone したレポジトリで <code>hugo new &lt;new_page_path&gt;</code> を実行して新しいページを作成して編集する。</li>
 <li><code>hugo server -D</code> などでテスト後、 <code>hugo</code> コマンドで public 以下のファイルを更新する</li>
 <li>public 以下は <a href="https://github.com/urotasy/urotasy.github.io">https://github.com/urotasy/urotasy.github.io</a> の submodule になっているので、まずそちらを commit, push する。そうすると <a href="https://urotasy.github.io/">https://urotasy.github.io/</a> が更新されるので、内容を確認する (少し時間がかかる場合がある)</li>
-<li>UrHugoSite レポジトリで変更を commit, push する。このとき、 public 以下を更新するために <code>git submodule update --remote</code> を実行する (このあたりの順が正しいかまだ怪しい)</li>
+<li>UrHugoSite レポジトリを更新する。まず、 public 以下を更新するために <code>git submodule update --remote</code> を実行する。このあと、 public を含めすべての変更を commit, push する。</li>
 </ol>
 
   <!-- _default/single.html end -->

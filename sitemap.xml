@@ -8,10 +8,10 @@
     <loc>http://example.org/categories/</loc>
     <lastmod>2025-02-17T21:27:22+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/article/how_to_delete_article/</loc>
+    <loc>http://example.org/tags/hugo/</loc>
     <lastmod>2025-02-17T21:27:22+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/hugo/</loc>
+    <loc>http://example.org/article/how_to_delete_article/</loc>
     <lastmod>2025-02-17T21:27:22+09:00</lastmod>
   </url><url>
     <loc>http://example.org/tags/software-development/</loc>

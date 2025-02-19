@@ -6,7 +6,16 @@
     <description>Recent content in Categories on Ur Memos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 17 Feb 2025 21:27:22 +0900</lastBuildDate><atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Feb 2025 22:28:29 +0900</lastBuildDate><atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Programming</title>
+      <link>http://example.org/categories/programming/</link>
+      <pubDate>Wed, 19 Feb 2025 22:28:29 +0900</pubDate>
+      
+      <guid>http://example.org/categories/programming/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Tips</title>
       <link>http://example.org/categories/tips/</link>

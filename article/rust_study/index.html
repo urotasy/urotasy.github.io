@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html><body><a href="/" class="title">
+  <h2>Ur Memos</h2>
+</a>
+<div id="content">
+  <!-- _default/single.html start -->
+  <p>作ってみたい Windows GUI アプリケーションがあり、ちょっと調べたところ Rust がよさそう。</p>
+<p>全く触ってみたことがないので、チュートリアル代わりに <a href="https://doc.rust-jp.rs/book-ja/title-page.html">https://doc.rust-jp.rs/book-ja/title-page.html</a> を読んでやってみる。</p>
+<p>どうも <code>rustc</code> というのがコンパイラで C における <code>gcc</code> みたいな立ち位置らしい。さらに <code>cargo</code> というビルドシステム兼パッケージマネージャや <code>rustfmt</code> というフォーマッタも標準でついているらしい。</p>
+<p><code>cargo new &lt;name&gt;</code> を実行すると、最初のコードである main.rs やパッケージ (クレート？) の設定情報である Cargo.toml などの生成と (デフォルトでは) git repository の初期化が実行される。Git を使うか否か、代わりになんのバージョン管理システムを使うかなどは <code>cargo new --vcs &lt;VCS&gt; &lt;name&gt;</code> で設定できる。</p>
+<p>Cargo で作成したディレクトリ内には Cargo.lock というファイルが生成される。このファイルはプロジェクト内の依存関係の正確なバージョンを記録しているらしい。ファイル内にも書かれているが、これは Cargo によって自動生成されるものなので、自分で触る必要はない。</p>
+<p>TODO: <a href="https://doc.rust-jp.rs/book-ja/ch01-03-hello-cargo.html#cargo%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%82%92%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E5%AE%9F%E8%A1%8C%E3%81%99%E3%82%8B">https://doc.rust-jp.rs/book-ja/ch01-03-hello-cargo.html#cargo%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%82%92%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E5%AE%9F%E8%A1%8C%E3%81%99%E3%82%8B</a> から続きを読む。</p>
+
+  <!-- _default/single.html end -->
+
+        </div></body>
+</html>
